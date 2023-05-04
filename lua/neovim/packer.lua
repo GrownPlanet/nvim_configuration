@@ -45,4 +45,14 @@ return require('packer').startup(function(use)
 }
 
 	use({'mbbill/undotree'})
+
+	use {
+		'nvim-tree/nvim-tree.lua',
+		requires = {
+			'nvim-tree/nvim-web-devicons', -- optional
+		},
+		config = function()
+			require("nvim-tree").setup {}
+		end
+	}
 end)
