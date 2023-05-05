@@ -12,9 +12,9 @@ return require('packer').startup(function(use)
 	}
 
 	-- color scheme
-	use({ 'rose-pine/neovim', as = 'rose-pine' })
+	use({ 'folke/tokyonight.nvim'})
 
-	vim.cmd('colorscheme rose-pine')
+	vim.cmd('colorscheme tokyonight')
 
 	--treesitter
 	use ({
