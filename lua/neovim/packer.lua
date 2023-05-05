@@ -16,13 +16,16 @@ return require('packer').startup(function(use)
 
 	vim.cmd('colorscheme rose-pine')
 
+	--treesitter
 	use ({
 		'nvim-treesitter/nvim-treesitter',
 		run = ':TSUpdate'
 	})
 
+	--treestitter playground
 	use ({ 'nvim-treesitter/playground' })
 
+	-- autocomplete
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v2.x',
@@ -44,8 +47,13 @@ return require('packer').startup(function(use)
 	}
 }
 
+	-- undo tree
 	use({'mbbill/undotree'})
+	
+	-- web devicons
+	use 'nvim-tree/nvim-web-devicons'
 
+	-- nvim tree
 	use {
 		'nvim-tree/nvim-tree.lua',
 		requires = {
