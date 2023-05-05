@@ -50,9 +50,6 @@ return require('packer').startup(function(use)
 	-- undo tree
 	use({'mbbill/undotree'})
 	
-	-- web devicons
-	use 'nvim-tree/nvim-web-devicons'
-
 	-- nvim tree
 	use {
 		'nvim-tree/nvim-tree.lua',
