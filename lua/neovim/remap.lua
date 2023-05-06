@@ -1,9 +1,6 @@
-vim.keymap.set("n", "L", ":tabnext<enter>")
-vim.keymap.set("n", "H", ":-tabnext<enter>")
+vim.keymap.set("n", "L", vim.cmd.tabnext)
+vim.keymap.set("n", "H", vim.cmd.tabprevious)
 
-vim.keymap.set("n", "X", ":tabclose<enter>")
-
-vim.keymap.set("n", "tt", ":NvimTreeToggle<enter>")
-vim.keymap.set("n", "tf", ":NvimTreeFocus<enter>")
+vim.keymap.set("n", "X", vim.cmd.tabclose)
 
 vim.keymap.set("n", "K", "")
