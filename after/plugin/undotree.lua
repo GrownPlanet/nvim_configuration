@@ -1,1 +1,1 @@
-vim.keymap.set("n", "tu", vim.cmd.UndotreeToggle)
+vim.keymap.set("n", "yg", vim.cmd.UndotreeToggle)

@@ -8,5 +8,3 @@ vim.opt.termguicolors = true
 -- empty setup using defaults
 require("nvim-tree").setup()
 
-vim.keymap.set("n", "tt", vim.cmd.NvimTreeToggle)
-vim.keymap.set("n", "tf", vim.cmd.NvimTreeFocus)

@@ -1,0 +1,2 @@
+require("dvorak.remap")
+
