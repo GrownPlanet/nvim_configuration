@@ -17,3 +17,9 @@ vim.keymap.set('n', 'n', 'l')
 
 vim.keymap.set('n', 'k', 'd')
 
+vim.keymap.set('v', 'd', 'h')
+vim.keymap.set('v', 'h', 'j')
+vim.keymap.set('v', 't', 'k')
+vim.keymap.set('v', 'n', 'l')
+
+vim.keymap.set('v', 'k', 'd')
