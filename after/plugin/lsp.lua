@@ -39,7 +39,7 @@ lsp.set_preferences({
 lsp.on_attach(function(client, bufnr)
   local opts = {buffer = bufnr, remap = false}
 
-  vim.keymap.set("n", "D", function() vim.lsp.buf.hover() end, opts)
+  vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
 end)
 
 lsp.setup()
