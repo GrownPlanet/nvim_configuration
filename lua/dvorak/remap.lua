@@ -5,8 +5,8 @@ vim.keymap.set("n", "X", vim.cmd.tabclose)
 
 vim.keymap.set("n", "K", "")
 
-vim.keymap.set("n", "gg", vim.cmd.NvimTreeToggle)
-vim.keymap.set("n", "gf", vim.cmd.NvimTreeFocus)
+vim.keymap.set("n", ",,", vim.cmd.NvimTreeToggle)
+vim.keymap.set("n", ",f", vim.cmd.NvimTreeFocus)
 
 vim.keymap.set("n", "yg", vim.cmd.UndotreeToggle)
 
