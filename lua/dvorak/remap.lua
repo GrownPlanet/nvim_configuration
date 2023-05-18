@@ -23,3 +23,6 @@ vim.keymap.set('v', 't', 'k')
 vim.keymap.set('v', 'n', 'l')
 
 vim.keymap.set('v', 'k', 'd')
+
+vim.keymap.set('n', 'q', 'n')
+vim.keymap.set('n', 'Q', 'N')

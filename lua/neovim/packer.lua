@@ -49,7 +49,7 @@ return require('packer').startup(function(use)
 
 	-- undo tree
 	use({'mbbill/undotree'})
-	
+
 	-- nvim tree
 	use {
 		'nvim-tree/nvim-tree.lua',
