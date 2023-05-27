@@ -9,3 +9,5 @@ vim.opt.scrolloff = 8 -- 8 blocks ofset from edges
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+
+vim.opt.cursorline = true
