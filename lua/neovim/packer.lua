@@ -12,9 +12,9 @@ return require('packer').startup(function(use)
 	}
 
 	-- color scheme
-	use({ 'folke/tokyonight.nvim'})
+	use { "bluz71/vim-nightfly-colors", as = "nightfly" }
 
-	vim.cmd('colorscheme tokyonight')
+	vim.cmd('colorscheme nightfly')
 
 	--treesitter
 	use ({
