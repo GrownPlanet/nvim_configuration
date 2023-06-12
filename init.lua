@@ -1,2 +1,2 @@
 require("neovim")
-require("dvorak")
+require("qwerty")

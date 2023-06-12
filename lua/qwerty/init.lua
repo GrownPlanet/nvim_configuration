@@ -1,0 +1,2 @@
+require("qwerty.remap")
+
