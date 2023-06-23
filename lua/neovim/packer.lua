@@ -12,9 +12,7 @@ return require('packer').startup(function(use)
 	}
 
 	-- color scheme
-	use { "bluz71/vim-nightfly-colors", as = "nightfly" }
-
-	vim.cmd('colorscheme nightfly')
+	use { "catppuccin/nvim", as = "catppuccin" }
 
 	--treesitter
 	use ({
